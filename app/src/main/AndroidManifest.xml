@@ -3,7 +3,16 @@
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="de.proneucon.weatherapp">
 
+
+    <!-- wegen "use instant apps" beim erstellen-->
     <dist:module dist:instant="true" />
+
+    <!-- Permissions -->
+    <!-- *prüfen ob das Internet verwendet werden darf: -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- *prüfen ob das Netzwerk aktiell erreichbar/verfügbar ist: -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
 
     <application
         android:allowBackup="true"

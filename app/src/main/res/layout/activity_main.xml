@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/et_city"
+        android:id="@+id/et_stadt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -22,14 +22,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_anteigen"
+        android:id="@+id/btn_anzeigen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/btn_anzeigen"
-        app:layout_constraintStart_toEndOf="@+id/et_city"
+        app:layout_constraintStart_toEndOf="@+id/et_stadt"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -41,7 +41,7 @@
         android:layout_marginTop="8dp"
         android:contentDescription="@string/content_description"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_city"
+        app:layout_constraintTop_toBottomOf="@+id/et_stadt"
         tools:srcCompat="@android:color/background_dark" />
 
     <TextView
@@ -53,7 +53,7 @@
         android:layout_marginTop="8dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:layout_constraintStart_toEndOf="@+id/iv_image"
-        app:layout_constraintTop_toBottomOf="@+id/et_city"
+        app:layout_constraintTop_toBottomOf="@+id/et_stadt"
         tools:text="X °C" />
 
     <TextView

@@ -14,10 +14,10 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:hint="@string/stadt_hint"
         android:imeOptions="actionGo"
-        android:inputType="textPersonName"
 
-        android:text="@string/stadt_hint"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,27 +34,41 @@
 
     <ImageView
         android:id="@+id/iv_image"
-        android:layout_width="226dp"
+        android:layout_width="154dp"
         android:layout_height="167dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:contentDescription="@string/content_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_city"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        tools:srcCompat="@android:color/background_dark" />
 
     <TextView
-        android:id="@+id/tv_"
+        android:id="@+id/tv_temperatur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="279dp" />
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintStart_toEndOf="@+id/iv_image"
+        app:layout_constraintTop_toBottomOf="@+id/et_city"
+        tools:text="X °C" />
+
+    <TextView
+        android:id="@+id/tv_beschreibung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_image"
+        app:layout_constraintStart_toEndOf="@+id/iv_image"
+        tools:text="Beschreibung" />
 
 </android.support.constraint.ConstraintLayout>
 
-<!--  LEGENDE :-->
+<!--  LEGENDE : -->
 <!--  android:imeOptions="actionGo"  -> -->
-<!--  -->
+<!--   android:textAppearance="?android:attr/textAppearanceLarge" ->  -->

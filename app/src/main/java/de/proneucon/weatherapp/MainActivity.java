@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText city;
     private ImageView image;
     private TextView temperatur, description;
+    private Button button;
 
 
     @Override
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         temperatur = findViewById(R.id.tv_temperatur);
         description = findViewById(R.id.tv_beschreibung);
 
-        final Button button = findViewById(R.id.btn_anzeigen);
+        button = findViewById(R.id.btn_anzeigen);
 
         button.setOnClickListener( (v) -> new Thread(() -> {
             WeatherData weather;

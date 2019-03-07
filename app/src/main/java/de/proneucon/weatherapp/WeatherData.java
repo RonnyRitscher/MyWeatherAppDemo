@@ -14,7 +14,6 @@ class WeatherData {
         this.name = name;
         this.description = description;
         this.icon = icon;
-        this.icon = icon;
         this.temp = temp;
     }
 }

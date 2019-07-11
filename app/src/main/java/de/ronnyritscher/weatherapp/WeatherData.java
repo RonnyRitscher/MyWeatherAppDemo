@@ -1,6 +1,4 @@
-package de.proneucon.weatherapp;
-
-import android.util.Log;
+package de.ronnyritscher.weatherapp;
 
 class WeatherData {
     private static final String TAG = WeatherData.class.getSimpleName();

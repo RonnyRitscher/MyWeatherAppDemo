@@ -1,11 +1,14 @@
-package de.proneucon.weatherapp;
+package de.ronnyritscher.weatherapp;
 
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -48,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
                     description.setText(weather.description);
                     Double temp = weather.temp - 273.15;
                     temperatur.setText(getString(R.string.temp_template, temp.intValue()));
+
+                    closeKeyboard();
                 });
             } catch (Exception e) {
                 Log.e(TAG, "getWeather()", e);
@@ -58,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
                     button.performClick();
                     return true;
                 });
+    }
+
+    private void closeKeyboard() {
+        View view = this.getCurrentFocus();
+        if(view != null){
+            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow( view.getWindowToken() , 0);
+        }
     }
 
 //    @Override

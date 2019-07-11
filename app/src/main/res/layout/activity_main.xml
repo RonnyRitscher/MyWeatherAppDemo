@@ -8,16 +8,17 @@
 
     <EditText
         android:id="@+id/et_stadt"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="92dp"
         android:ems="10"
+
         android:hint="@string/stadt_hint"
         android:imeOptions="actionGo"
-
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/btn_anzeigen"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,22 +26,21 @@
         android:id="@+id/btn_anzeigen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:text="@string/btn_anzeigen"
+        app:layout_constraintBottom_toBottomOf="@+id/et_stadt"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/et_stadt"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/et_stadt" />
 
     <ImageView
         android:id="@+id/iv_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:contentDescription="@string/content_description"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/et_stadt"
         app:layout_constraintTop_toBottomOf="@+id/et_stadt"
         tools:srcCompat="@android:color/background_dark" />
 

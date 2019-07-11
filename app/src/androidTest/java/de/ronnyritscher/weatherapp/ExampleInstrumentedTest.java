@@ -1,4 +1,4 @@
-package de.proneucon.weatherapp;
+package de.ronnyritscher.weatherapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

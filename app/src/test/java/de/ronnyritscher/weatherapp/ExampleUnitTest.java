@@ -1,4 +1,4 @@
-package de.proneucon.weatherapp;
+package de.ronnyritscher.weatherapp;
 
 import org.junit.Test;
 

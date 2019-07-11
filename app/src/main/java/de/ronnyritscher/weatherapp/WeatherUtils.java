@@ -1,4 +1,4 @@
-package de.proneucon.weatherapp;
+package de.ronnyritscher.weatherapp;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

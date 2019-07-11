@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="de.proneucon.weatherapp">
+    package="de.ronnyritscher.weatherapp">
 
 
     <!-- wegen "use instant apps" beim erstellen-->
@@ -16,12 +16,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_ritscherapplogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_ritscherapplogo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="de.ronnyritscher.weatherapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

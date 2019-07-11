@@ -8,6 +8,7 @@ Durch die Usereingabe (s)einer Stadt werden über die API (+Key) der
 Webseite https://openweathermap.org/ die aktuellen Wetterdaten abgefragt und angezeigt.
 
 Inhalt/Coding:
+
 0. GUI (grafische Benutzerschnittstelle)
 1. Prüfen ob externes Netzwerk erreichbar ist und Prüfunug der aktuell genutzten Device-Version 
    (ab Marshmallow optimal nutzbar)

@@ -1,4 +1,4 @@
-# WeatherApp - Projektbeschreibung:
+# WeatherApp (Ritscher-Code-Snippet) - Projektbeschreibung:
 
 Ziel: 
 Anzeigen der aktuellen Wetterinformationen einer Stadt über die manuelle Eingabe einer Stadt

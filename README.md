@@ -9,7 +9,7 @@ Ziel:
 - Auswertung des Daten über JSON-Objekt
 - Anzeigen der Daten in der Demo-App
 
-Creator/Developer:
+Entwickler/Developer:
 - Ronny Ritscher - RAAD (Ritscher Android App Development)
 
 Stand:

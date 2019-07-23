@@ -1,18 +1,18 @@
-# WeatherApp (Ritscher-Code-Snippet) - Projektbeschreibung:
+# MyWeatherAppDemo (RAAD - Ritscher Android App Development ) 
 
-Ziel: 
-Anzeigen der aktuellen Wetterinformationen einer Stadt über die manuelle Eingabe einer Stadt
+Projektbeschreibung: 
+(RAAD - Ritscher Android App Development )
 
-Beschreibung:
-Durch die Usereingabe (s)einer Stadt werden über die API (+Key) der 
-Webseite https://openweathermap.org/ die aktuellen Wetterdaten abgefragt und angezeigt.
 
-Inhalt/Coding:
+Beschreibung: 
+Anzeigen der aktuellen Wetterinformationen einer Stadt (über eine manuelle Eingabe) und Anzeigen der aktuellen Wetter-Daten (inkl. Wetter-Image) in der  minimalistischen Demo-Application über die API von https://openweathermap.org/.
 
-0. GUI (grafische Benutzerschnittstelle)
-1. Prüfen ob externes Netzwerk erreichbar ist und Prüfunug der aktuell genutzten Device-Version 
-   (ab Marshmallow optimal nutzbar)
-2. Auslesen und verarbeiten der externen Daten über JSON-Objekt bezüglich der User-Eingabe
-3. Anzeigen der aktuellen Wetterdaten und visuellen Darstellung als Image in der App
+Ziel:
+- simple Usereingabe einer Stadt (GUI)
+- Verwenden der API https://openweathermap.org/ 
+- Auswertung des Daten über JSON-Objekt
+- Anzeigen der Daten in der Demo-App
 
-(Projekt ist finalisiert)
+
+Stand:
+(Demo-Projekt muss finalisiert werden!)

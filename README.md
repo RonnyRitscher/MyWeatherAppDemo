@@ -1,10 +1,6 @@
-# MyWeatherAppDemo (RAAD - Ritscher Android App Development ) 
+# MyWeatherAppDemo 
 
 Projektbeschreibung: 
-(RAAD - Ritscher Android App Development )
-
-
-Beschreibung: 
 Anzeigen der aktuellen Wetterinformationen einer Stadt (über eine manuelle Eingabe) und Anzeigen der aktuellen Wetter-Daten (inkl. Wetter-Image) in der  minimalistischen Demo-Application über die API von https://openweathermap.org/.
 
 Ziel:
@@ -13,6 +9,8 @@ Ziel:
 - Auswertung des Daten über JSON-Objekt
 - Anzeigen der Daten in der Demo-App
 
+Creator/Developer:
+Ronny Ritscher - RAAD (Ritscher Android App Development)
 
 Stand:
 (Demo-Projekt muss finalisiert werden!)
